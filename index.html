@@ -17,34 +17,52 @@
     </nav>
 </header>
 <body>
-<div class="hero">
-    <div class="container border-bottom border-top border-white">
-        <h1 class="intro">THE BLOG</h1>
-    </div>
-</div>
-    <section>
-        <div class="container mb-5">
-            <i class="fas fa-heading fa-sm text-white article">Recent blog post</i>
+    <div class="hero">
+        <div class="container border-bottom border-top border-white">
+            <h1 class="intro">THE BLOG</h1>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="img/image1.jpg" alt="Blog Post 1" class="img-fluid image1">
-                    <div>
-                        <p class="head_news">Sunday , 1 Jan 2023</p>
-                        <p class="content">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
-                        <button class="btn">
-                                Design <span class="badge "></span>
-                        </button>
+    </div>
+    <section class="container mt-5">
+        <h2 class="article mb-4">Recent Blog Posts</h2>
+        <div class="row">
+            <!-- Publicación destacada a la izquierda -->
+            <div class="col-md-7">
+                <img src="img/image1.jpg" alt="Blog Post 1" class="img-fluid main-image">
+                <p class="head_news mt-3">Sunday, 1 Jan 2023</p>
+                <h3 class="content">UX Review Presentations</h3>
+                <p>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                <div>
+                    <span class="badge bg-primary">Design</span>
+                    <span class="badge bg-secondary">Research</span>
+                    <span class="badge bg-warning text-dark">Presentation</span>
+                </div>
+            </div>
+            <!-- Publicaciones más pequeñas a la derecha -->
+            <div class="col-md-5">
+                <!-- Publicación 1 -->
+                <div class="d-flex align-items-start mb-4">
+                    <img src="img/image2.jpg" alt="Blog Post 2" class="secondary-image">
+                    <div class="ms-3">
+                        <p class="head_news">Sunday, 1 Jan 2023</p>
+                        <h5 class="content">Migrating to Linear 101</h5>
+                        <p>Linear helps streamline software projects, sprints, tasks, and bug tracking.</p>
+                        <div>
+                            <span class="badge bg-primary">Design</span>
+                            <span class="badge bg-secondary">Research</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div>
-                    <h2>Blog Post Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula id ipsum tincidunt consectetur. Donec vel massa semper, viverra dolor id, pharetra dui. Nulla facilisi.</p>
-                </div>
-                    <div>
-                    
+                <!-- Publicación 2 -->
+                <div class="d-flex align-items-start">
+                    <img src="img/image3.jpg" alt="Blog Post 3" class=" secondary-image">
+                    <div class="ms-3">
+                        <p class="head_news">Sunday, 1 Jan 2023</p>
+                        <h5 class="content">Building your API Stack</h5>
+                        <p>The rise of RESTful APIs has been met by a rise in tools for creating and managing them.</p>
+                        <div>
+                            <span class="badge bg-success">Design</span>
+                            <span class="badge bg-info text-dark">Research</span>
+                        </div>
                     </div>
                 </div>
             </div>

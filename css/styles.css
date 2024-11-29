@@ -1,53 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body, html {
     margin: 0;
     padding: 0;
-    width: Fixed (1,440px);
-    background-color: #090D1F
-    
+    width: 100%;
+    background-color: #090D1F;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }
 
-.name{
-    font-family: "Inter", sans-serif;
+.name {
     font-weight: 600;
-    size: 20px;
-    line-height: 24px;
+    font-size: 20px;
     color: #FFFFFF;
 }
-.custom-header {
-    color: white; 
-}
-.intro{
-    font-family: Inter;
-font-size: 243.8px;
-font-weight: 700;
-line-height: 295.05px;
-color: #FFFFFF;
+
+.custom-header a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
 }
 
-.hero{
-padding: 30px ;
+.intro {
+    font-size: 96px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0;
 }
-.image1 {
+
+.hero {
+    padding: 20px;
+    text-align: center;
+}
+
+.article {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.head_news {
+    font-size: 14px;
+    color: #6941C6;
+}
+
+.content {
+    font-size: 18px;
+    color: #C0C5D0;
+    font-weight: 600;
+}
+
+.badge {
+    margin-right: 5px;
+}
+
+.main-image {
     width: 592px;
     height: 228px;
-    overflow: hidden;
+    object-fit: cover;
 }
-.article {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;   
+
+.secondary-image {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+
 }
-.head_news{
-font-family: Inter;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-color: #6941C6;
-}
-.content{
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-color: #C0C5D0;
-}
+
