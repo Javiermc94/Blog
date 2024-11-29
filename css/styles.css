@@ -1,14 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-html{
-    background-color: #090D1F;
+body, html {
+    margin: 0;
+    padding: 0;
+    width: Fixed (1,440px);
+    background-color: #090D1F
+    
 }
-header{
- max-width: 500px;
-}
+
 .name{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+}
+.custom-header {
+    color: white; 
+}
+.intro{
+    font-family: Inter;
+font-size: 243.8px;
+font-weight: 700;
+line-height: 295.05px;
+color: #FFFFFF;
+}
+
+.hero{
+padding: 30px ;
+}
+.image1 {
+    width: 592px;
+    height: 228px;
+}
+.article {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;   
 }
