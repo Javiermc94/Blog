@@ -22,8 +22,10 @@ body, html {
 }
 
 .intro {
-    font-size: 96px;
-    font-weight: 700;
+    font-family: Inter;
+font-size: 243.8px;
+font-weight: 700;
+line-height: 295.05px;
     color: #FFFFFF;
     text-align: center;
     padding: 50px 0;
@@ -53,7 +55,10 @@ body, html {
 
 .badge {
     margin-right: 5px;
+    background-color: #FFFFFF;
+    color: black;
 }
+
 
 .main-image {
     width: 592px;
@@ -68,3 +73,24 @@ body, html {
 
 }
 
+.third-image{
+     width: 592px;
+    height: 246px;
+    object-fit: cover;
+    
+
+}
+.heading-news {
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+color: #FFFFFF;
+}
+.content-news {
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+color: #C0C5D0;
+;
+}
