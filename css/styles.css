@@ -76,9 +76,7 @@ line-height: 295.05px;
 .third-image{
      width: 592px;
     height: 246px;
-    object-fit: cover;
-    
-
+    object-fit: fill;
 }
 .heading-news {
 font-family: Inter;
@@ -93,4 +91,43 @@ font-size: 16px;
 font-weight: 400;
 color: #C0C5D0;
 ;
+}
+.Title2 {
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+}
+.prueba {
+width: Fixed (1,216px)px;
+height: Hug (1,032px)px;
+gap: 32px;
+    
+}
+.image5{
+width: 384px;
+height: 240px;
+
+}
+
+.head_news {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.tags .badge {
+    margin-right: 5px;
+}
+.color{
+    background-color: #090D1F;
 }
