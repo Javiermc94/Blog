@@ -131,3 +131,48 @@ height: 240px;
 .color{
     background-color: #090D1F;
 }
+
+.heading-news-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.heading-news {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 24px; /* Ajusta el tamaño del texto del encabezado si es necesario */
+}
+
+.arrow-icon-button {
+    background-color: transparent; /* Fondo transparente para que parezca parte del diseño */
+    border: none; /* Sin bordes para un estilo limpio */
+    margin-left: 10px; /* Espacio entre el encabezado y el ícono */
+    padding: 5px; /* Añade algo de espacio alrededor del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Opcional: para darle un diseño redondeado */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.arrow-icon-button i {
+    transform: rotate(-45deg); /* Rotar hacia arriba a la derecha */
+    font-size: 24px; /* Ajusta el tamaño del icono si es necesario */
+    color: #FFFFFF; /* Cambia el color del icono si es necesario */
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
