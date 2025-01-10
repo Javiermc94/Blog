@@ -90,7 +90,8 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 400;
 color: #C0C5D0;
-;
+margin: 20px 0;
+
 }
 .Title2 {
 font-family: Inter;
@@ -227,16 +228,74 @@ height: 240px;
 
 }
 
-.new-image{
-    width: 778px;
-    height: 426px;
-    object-fit: cover;
+.new-image {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 426px; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    margin: 20px 0; /* Centra verticalmente eliminando el margen automático */
+    display: block;
+    object-fit: cover; 
+}
+
+.new-image2 {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 498px; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    margin: 20px 0; /* Centra verticalmente eliminando el margen automático */
+    display: block;
+    object-fit: cover; 
 }
 
 .heading-news-blog{
     flex-grow: 1;
     margin: 0;
-    font-size: 24px;
-    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;     
+
 }
 
+.content-news2{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #C0C5D0;
+;
+}
+
+.content-news3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C0C5D0;
+    margin: 20px 0;
+    text-align: center;
+    }
+.content-news4{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: left;
+    color: #C0C5D0;
+    }
+
+    .new-image3 {
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+        height: 426px; /* Mantiene la proporción de la imagen */
+        border-radius: 8px;
+        margin: 20px 0; /* Centra verticalmente eliminando el margen automático */
+        display: block;
+        object-fit: cover; 
+    }
