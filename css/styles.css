@@ -419,3 +419,47 @@ color:  #C0C5D0;
         width: 4.5rem;
         height: 2.2rem;
       }
+      .fondo{
+        border-radius: 3rem;
+        width: 4.5rem;
+        height: 2.2rem;
+      }
+    .label{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #C0C5D0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-top: 10px;
+    
+    }
+    
+    textarea{
+        width: 400px;
+        height: 100px;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        resize: none;
+    }
+    
+    input.enviar{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: #6A5acd;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 1rem
+    }
